@@ -1,12 +1,12 @@
 {
-  "uid" : "e367bf92ae86388b",
+  "uid" : "7b55bd795190811f",
   "name" : "Change profile name",
   "fullName" : "tests.feature_profile_test.TestProfileFeature#test_change_profile_name",
   "historyId" : "42b4a115007c35c622675a0baedb491a",
   "time" : {
-    "start" : 1768038263443,
-    "stop" : 1768038276977,
-    "duration" : 13534
+    "start" : 1768040179853,
+    "stop" : 1768040269218,
+    "duration" : 89365
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "setup_pages",
     "time" : {
-      "start" : 1768038263442,
-      "stop" : 1768038263442,
+      "start" : 1768040179853,
+      "stop" : 1768040179853,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,9 +29,9 @@
   }, {
     "name" : "driver",
     "time" : {
-      "start" : 1768038262619,
-      "stop" : 1768038263442,
-      "duration" : 823
+      "start" : 1768040179038,
+      "stop" : 1768040179853,
+      "duration" : 815
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,9 +47,9 @@
     "steps" : [ {
       "name" : "Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login page",
       "time" : {
-        "start" : 1768038263443,
-        "stop" : 1768038264107,
-        "duration" : 664
+        "start" : 1768040179853,
+        "stop" : 1768040191543,
+        "duration" : 11690
       },
       "status" : "passed",
       "steps" : [ ],
@@ -62,9 +62,9 @@
     }, {
       "name" : "Enter login",
       "time" : {
-        "start" : 1768038264108,
-        "stop" : 1768038265181,
-        "duration" : 1073
+        "start" : 1768040191543,
+        "stop" : 1768040199687,
+        "duration" : 8144
       },
       "status" : "passed",
       "steps" : [ ],
@@ -80,9 +80,9 @@
     }, {
       "name" : "Enter password",
       "time" : {
-        "start" : 1768038265181,
-        "stop" : 1768038265256,
-        "duration" : 75
+        "start" : 1768040199688,
+        "stop" : 1768040199760,
+        "duration" : 72
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "Click submit button",
       "time" : {
-        "start" : 1768038265257,
-        "stop" : 1768038265334,
-        "duration" : 77
+        "start" : 1768040199760,
+        "stop" : 1768040199833,
+        "duration" : 73
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index is opened",
       "time" : {
-        "start" : 1768038265334,
-        "stop" : 1768038266565,
-        "duration" : 1231
+        "start" : 1768040199833,
+        "stop" : 1768040228589,
+        "duration" : 28756
       },
       "status" : "passed",
       "steps" : [ ],
@@ -128,9 +128,9 @@
     }, {
       "name" : "Click on 'My Info' link",
       "time" : {
-        "start" : 1768038266565,
-        "stop" : 1768038269640,
-        "duration" : 3075
+        "start" : 1768040228590,
+        "stop" : 1768040255758,
+        "duration" : 27168
       },
       "status" : "passed",
       "steps" : [ ],
@@ -143,9 +143,9 @@
     }, {
       "name" : "Page https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7 is opened",
       "time" : {
-        "start" : 1768038269640,
-        "stop" : 1768038269644,
-        "duration" : 4
+        "start" : 1768040255759,
+        "stop" : 1768040255767,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -156,18 +156,18 @@
       "stepsCount" : 0,
       "hasContent" : false
     }, {
-      "name" : "Change name to ''Test 59''",
+      "name" : "Change name to ''Test 35''",
       "time" : {
-        "start" : 1768038269644,
-        "stop" : 1768038271774,
-        "duration" : 2130
+        "start" : 1768040255767,
+        "stop" : 1768040259976,
+        "duration" : 4209
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "new_name",
-        "value" : "'Test 59'"
+        "value" : "'Test 35'"
       } ],
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
@@ -176,9 +176,9 @@
     }, {
       "name" : "Save changes",
       "time" : {
-        "start" : 1768038271774,
-        "stop" : 1768038276936,
-        "duration" : 5162
+        "start" : 1768040259976,
+        "stop" : 1768040269177,
+        "duration" : 9201
       },
       "status" : "passed",
       "steps" : [ ],
@@ -191,9 +191,9 @@
     }, {
       "name" : "Changes have been saved successfully",
       "time" : {
-        "start" : 1768038276936,
-        "stop" : 1768038276976,
-        "duration" : 40
+        "start" : 1768040269177,
+        "stop" : 1768040269218,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -214,9 +214,9 @@
   "afterStages" : [ {
     "name" : "driver::0",
     "time" : {
-      "start" : 1768038276977,
-      "stop" : 1768038277043,
-      "duration" : 66
+      "start" : 1768040269219,
+      "stop" : 1768040269311,
+      "duration" : 92
     },
     "status" : "passed",
     "steps" : [ ],
@@ -250,7 +250,7 @@
     "value" : "TestProfileFeature"
   }, {
     "name" : "host",
-    "value" : "a2c91753bbfa"
+    "value" : "6734de7a62a3"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -275,8 +275,27 @@
     "severity" : "critical",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e367bf92ae86388b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768038263443,
+          "stop" : 1768038276977,
+          "duration" : 13534
+        }
+      } ]
+    },
     "tags" : [ "smoke", "@pytest.mark.usefixtures('driver')" ]
   },
-  "source" : "e367bf92ae86388b.json",
+  "source" : "7b55bd795190811f.json",
   "parameterValues" : [ ]
 }
