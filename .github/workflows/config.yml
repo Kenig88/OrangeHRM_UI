@@ -24,6 +24,10 @@ jobs:
         run: docker compose up --exit-code-from regression
         continue-on-error: true
 
+      - name: Fix permissions for allure-results
+        run: |
+          sudo chown -R $USER:$USER allure-results || true
+
       - name: Copy history from gh-pages to allure-results
         run: |
           mkdir -p allure-results/history 
@@ -45,6 +49,8 @@ jobs:
           branch: gh-pages
           folder: allure-report
           clean: true
+
+
 
 
 
